@@ -1,8 +1,8 @@
 
-def sockMerchant(n ,ar ):
+def sockMerchant(n ,ar):
     ar.sort()
-
-    [1 2 3  4 4 4 5]
+   
+    #  it O(n), i promisse
     i = s = 0
     while i < n :
         c = j = 0
