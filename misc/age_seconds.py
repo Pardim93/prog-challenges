@@ -8,7 +8,7 @@ def main():
     day   = int(input("Enter your day:"))
 
     age = datetime.now() - datetime(year, month, day)
-    print(year.total_seconds())
+    print(age.total_seconds())
 
 if __name__ == "__main__":
     main()
